@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
     if (counter == 0) {
-        tone(buzzerPin, 200, 100);      // frequency 200Hz, duration 100ms
+        tone(buzzerPin, 200, 100);
     }
     displayBinary(counter);
     delay(500);
